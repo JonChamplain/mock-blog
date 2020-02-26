@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+body {
+text-align: center;
+}
+
 h2 {
     font-family: serif;
     color: tomato;
@@ -12,7 +16,8 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    text-align: center;
+    
 }
 
 #right {
@@ -27,7 +32,7 @@ h2 {
 
 #main {
     width: 50vw;
-    padding: 5vw;
+    padding: 5vw 5vw 5vw 0vw;
 }
 
 section #sidebar {
@@ -37,7 +42,6 @@ section #sidebar {
 }
 
 aside {
-    padding: 5vw;
     width: 100%;
 }
 
@@ -49,52 +53,68 @@ aside {
     width: 20vw;
 }
 
+.QC {
+    font-size: 2em;
+    padding: 1rem;
+}
 
 #footer {
 font-size: 12px;
-background-color: gray;
-display: grid;
+background-color: rgb(189, 185, 185);
 width: 100%;
-height: 30vh;
-grid-template-columns: 1fr 1fr 2fr;
-grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
-grid-template-areas: 
-"header header header"
-"name email content-area"
-"comment comment content-area"
-"comment comment addresses"
-"button button addresses";
+height: 40vh;
 }
 
+.containerQC {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .headerQC{
-grid-area: header;
 text-align: center;
 }
 
 .nameQC {
-grid-area: name;
+    padding: 1rem 3rem 0rem 0rem ;
 }
 
 .emailQC {
-    grid-area: email ;
+    padding: 1rem 3rem 0rem 0rem;
 
 }
 
 .commentQC {
-    grid-area: comment ;
+   
+    padding: 1rem 3rem;
 
-}
-
-.addressesQC {
-    grid-area: adresses;
 }
 
 .contentQC {
-    grid-area: content-area;
+width: 10rem;
+}
+
+.addressesQC {
+  
 
 }
 
+
 .buttonQC {
-    grid-area: button;
+    
+
 }
 
