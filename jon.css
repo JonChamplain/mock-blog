@@ -1,173 +1,169 @@
-body{
-    font-family: sans-serif;
+aside {
+  padding: 5vw;
+  width: 100%;
 }
 
-#header {
-    text-align: center;
-}
-
-label {
-    font-size: 10px;
+body {
+  font-family: sans-serif;
 }
 
 h2 {
-    font-size: 2.5rem;
-    font-family: serif;
-    color: tomato;
-    text-shadow: 1px 1px gray;
-    margin-bottom: 15px;
+  font-size: 2.5rem;
+  font-family: serif;
+  color: tomato;
+  text-shadow: 1px 1px gray;
+  margin-bottom: 15px;
 }
 
 h3 {
-    margin-top: 50px;
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 400;
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
 }
 
-.box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.box-column {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.image-with-caption {
-   display: flex;
-   flex-direction: column;
-}
-
-#right {
-    width: 30vw;
-}
-
-#subtitle {
-    font-size: 8px;
-    margin-bottom: 60px;
-    font-family: sans-serif;
-}
-
-#hp-featured {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-#featured-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    height: 300px;
-}
-
-#tell-me-more {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 40px;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 12px;
-    text-align: center;
-    background-color: tomato;
-    color: white;
-    border-radius: 4px;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-#main {
-    width: 50vw;
-    padding: 5vw;
-}
-
-.featured-image {
-    width: 100%;
-    margin: 30px 0;
-    border: solid 3px rgb(235, 235, 235);
+label {
+  font-size: 10px;
 }
 
 section #sidebar {
-    display: flex;
-    flex-direction: column;
-    height: 30vw;
-}
-
-aside {
-    padding: 5vw;
-    width: 100%;
-}
-
-.featuredIMG {
-    width: 50vw;
-}
-
-.relatedIMG {
-    width: 20vw;
-}
-
-
-#footer {
-font-size: 12px;
-background-color: gray;
-display: grid;
-width: 100%;
-height: 30vh;
-grid-template-columns: 1fr 1fr 2fr;
-grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
-grid-template-areas: 
-"header header header"
-"name email content-area"
-"comment comment content-area"
-"comment comment addresses"
-"button button addresses";
-}
-
-.headerQC{
-grid-area: header;
-text-align: center;
-}
-
-.nameQC {
-grid-area: name;
-}
-
-.emailQC {
-    grid-area: email ;
-
-}
-
-.commentQC {
-    grid-area: comment ;
-
+  display: flex;
+  flex-direction: column;
+  height: 30vw;
 }
 
 .addressesQC {
-    grid-area: adresses;
+  grid-area: adresses;
 }
 
-.contentQC {
-    grid-area: content-area;
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
 
+.box-column {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .buttonQC {
-    grid-area: button;
+  grid-area: button;
 }
 
+.commentQC {
+  grid-area: comment;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contentQC {
+  grid-area: content-area;
+}
+
+.emailQC {
+  grid-area: email;
+}
+
+.featuredIMG {
+  width: 50vw;
+}
+
+.headerQC {
+  grid-area: header;
+  text-align: center;
+}
+
+.image-with-caption {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-image {
+  width: 100%;
+  margin: 30px 0;
+  border: solid 3px rgb(235, 235, 235);
+  border-radius: 2px;
+}
+
+.nameQC {
+  grid-area: name;
+}
+
+.relatedIMG {
+  width: 20vw;
+}
+
+#footer {
+  font-size: 12px;
+  background-color: gray;
+  display: grid;
+  width: 100%;
+  height: 30vh;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "name email content-area"
+    "comment comment content-area"
+    "comment comment addresses"
+    "button button addresses";
+}
+
+#header {
+  text-align: center;
+}
+
+#hp-featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#landing-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  height: 300px;
+}
+
+#main {
+  width: 50vw;
+  padding: 5vw;
+}
+
+#right {
+  width: 30vw;
+}
+
+#subtitle {
+  font-size: 8px;
+  margin-bottom: 60px;
+  font-family: sans-serif;
+}
+
+#tell-me-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  border-radius: 4px;
+}
