@@ -24,6 +24,10 @@ h2 {
     width: 30vw;
 }
 
+#left {
+    width: 30vw;
+}
+
 .container {
     display: flex;
     flex-direction: column;
