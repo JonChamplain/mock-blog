@@ -7,3 +7,40 @@ h2 {
     color: tomato;
     text-shadow: 1px 1px gray;
 }
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#right {
+    width: 30vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#main {
+    width: 50vw;
+}
+
+section #sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
+}
+
+aside {
+    width: 100%;
+}
+
+
+
+#footer {
+font-size: 12px;
+}
