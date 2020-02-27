@@ -215,6 +215,12 @@ section #sidebar {
   padding: 5vw 5vw 5vw 0vw;
 }
 
+.commentQC {
+   
+    padding: 1rem 1rem;
+
+}
+
 #mainLeft {
   width: 50vw;
   padding: 5vw 5vw 5vw 0vw;
