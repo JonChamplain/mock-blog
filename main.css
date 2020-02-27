@@ -32,6 +32,14 @@ section #sidebar {
   height: 30vw;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
 .box {
   display: flex;
   flex-direction: row;
@@ -127,10 +135,6 @@ section #sidebar {
   text-align: center;
 }
 
-#left {
-  width: 30vw;
-}
-
 #hp-featured {
   display: flex;
   flex-direction: column;
@@ -147,12 +151,23 @@ section #sidebar {
   height: 300px;
 }
 
+#left {
+  width: 30vw;
+}
+
 #main {
   width: 50vw;
   padding: 5vw 5vw 5vw 0vw;
 }
-#right {
-  width: 30vw;
+
+#mainLeft {
+  width: 50vw;
+  padding: 5vw 5vw 5vw 0vw;
+}
+
+#mainRight {
+  width: 50vw;
+  padding: 0vw 5vw 5vw 5vw;
 }
 
 #subtitle {
@@ -174,4 +189,8 @@ section #sidebar {
   background-color: tomato;
   color: white;
   border-radius: 4px;
+}
+
+#right {
+  width: 30vw;
 }
