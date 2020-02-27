@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo:700|Geostar|Montserrat:300,400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Arvo:700|Geostar|Montserrat:300,400,700&display=swap");
 
 aside {
   width: 100%;
@@ -7,18 +7,18 @@ aside {
 body {
   margin: 5px 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgb(123, 123, 123);
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 hr {
-    margin: 3px;
-    border: .5px solid rgb(220, 220, 220);
+  margin: 3px;
+  border: 0.5px solid rgb(220, 220, 220);
 }
 
 h2 {
-  font-family: 'Arvo' , serif;
+  font-family: "Arvo", serif;
   color: tomato;
   letter-spacing: 5px;
   text-shadow: 2px 3px rgb(228, 228, 228);
@@ -49,23 +49,23 @@ section #sidebar {
 }
 
 .article-image-header {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 25px;
   text-align: left;
 }
 
 .article-preview {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 30px auto
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px auto;
 }
 
 .article-preview-text {
   text-align: left;
   margin: auto auto 30px auto;
   font-weight: lighter;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .article-sub-head {
@@ -79,6 +79,24 @@ section #sidebar {
   text-align: center;
   align-items: flex-start;
 }
+.addresses {
+  display: flex;
+  flex-direction: row;
+}
+
+.addressStack1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.addressStack2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
 
 .big-brackets {
   font-family: "Geostar";
@@ -87,7 +105,7 @@ section #sidebar {
 }
 
 .box-column {
-  width: 60%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,7 +124,9 @@ section #sidebar {
 }
 
 .commentQC {
-  padding: 1rem 3rem;
+  padding: 1rem 4rem 1rem 2rem;
+  margin: 0rem;
+  resize: none;
 }
 
 .container {
@@ -118,7 +138,7 @@ section #sidebar {
 }
 
 .contentQC {
-  width: 10rem;
+  width: 20rem;
 }
 
 .containerQC {
@@ -128,16 +148,16 @@ section #sidebar {
 }
 
 .continue-reading-button {
-    margin-bottom: 25px;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 10px;
-    text-align: center;
-    background-color: tomato;
-    color: white;
-    border-radius: 4px;
-    width: auto;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  border-radius: 4px;
+  width: auto;
 }
 
 .emailQC {
@@ -158,18 +178,18 @@ section #sidebar {
 }
 
 .learn-more-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 40px;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 12px;
-    text-align: center;
-    background-color: tomato;
-    color: white;
-    border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  border-radius: 4px;
 }
 
 .landing-image {
@@ -183,6 +203,24 @@ section #sidebar {
   padding: 1rem 3rem 0rem 0rem;
 }
 
+.post {
+    align-items: center;
+    margin: 30px auto;
+  }
+
+.post-image-header {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .post-text {
+    text-align: left;
+    margin: auto auto 30px auto;
+    font-weight: lighter;
+    font-size: 0.8rem;
+  }
+
 .QC {
   font-size: 2em;
   padding: 1rem;
@@ -190,6 +228,11 @@ section #sidebar {
 
 .relatedIMG {
   width: 20vw;
+}
+
+.stackItem {
+  padding: 0.4rem;
+  text-align: left;
 }
 
 .tell-me-more-button {
@@ -203,6 +246,10 @@ section #sidebar {
   border-radius: 4px;
 }
 
+#blog-post-main {
+  padding: 2vw 0vw;
+}
+
 #footer {
   font-size: 12px;
   background-color: rgb(189, 185, 185);
@@ -212,6 +259,7 @@ section #sidebar {
 }
 
 #header {
+  width: 100%;
   text-align: center;
 }
 
@@ -287,7 +335,7 @@ section #sidebar {
 }
 
 #sidebar {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 #subtitle {
