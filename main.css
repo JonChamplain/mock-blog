@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Geostar&display=swap");
+
 aside {
   width: 100%;
 }
 
 body {
+  margin: auto 0;
   text-align: center;
   font-family: sans-serif;
 }
@@ -32,12 +35,30 @@ section #sidebar {
   height: 30vw;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
+.article-image {
+  width: 100%;
+  border: solid 3px rgb(235, 235, 235);
+}
+
+.article-image-header {
+  font-size: 20px;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.article-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.article-preview-text {
+  text-align: left;
+  margin: auto auto 40px auto;
+}
+
+.article-sub-head {
+  text-align: left;
 }
 
 .box {
@@ -46,6 +67,12 @@ section #sidebar {
   justify-content: center;
   text-align: center;
   align-items: flex-start;
+}
+
+.big-brackets {
+  font-family: "Geostar";
+  font-size: 80px;
+  color: rgb(148, 148, 148);
 }
 
 .box-column {
@@ -75,6 +102,8 @@ section #sidebar {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 .contentQC {
@@ -85,6 +114,18 @@ section #sidebar {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.continue-reading-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    border-radius: 4px;
+    width: auto;
 }
 
 .emailQC {
@@ -139,15 +180,31 @@ section #sidebar {
   width: 20vw;
 }
 
+.tell-me-more-button {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  border-radius: 4px;
+}
+
 #footer {
   font-size: 12px;
   background-color: rgb(189, 185, 185);
   width: 100%;
-  height: 40vh;
+  height: 40%;
+  padding-bottom: 3%;
 }
 
 #header {
   text-align: center;
+}
+
+#features {
+  margin-bottom: 75px;
 }
 
 #hp-featured {
@@ -171,14 +228,9 @@ section #sidebar {
 }
 
 #main {
-  width: 50vw;
-  padding: 5vw 5vw 5vw 0vw;
-}
-
-.commentQC {
-   
-    padding: 1rem 1rem;
-
+  width: 70%;
+  padding: 5vw 0vw;
+  margin-right: 3%;
 }
 
 #mainLeft {
@@ -191,27 +243,42 @@ section #sidebar {
   padding: 0vw 5vw 5vw 5vw;
 }
 
+#quote {
+  margin: auto 200px;
+  color: white;
+  font-size: 20px;
+}
+
+#quote-block {
+  display: flex;
+  align-items: center;
+}
+
+#quote-section {
+  background: linear-gradient(
+    90deg,
+    rgba(78, 83, 89, 1) 0%,
+    rgba(115, 120, 122, 1) 37%,
+    rgba(115, 120, 122, 1) 63%,
+    rgba(78, 83, 89, 1) 100%
+  );
+  height: 225px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#right {
+  width: 30%;
+}
+
+#sidebar {
+    margin-top: 80px;
+}
+
 #subtitle {
   font-size: 8px;
   margin-bottom: 60px;
   font-family: sans-serif;
-}
-
-#tell-me-more {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 40px;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 12px;
-  text-align: center;
-  background-color: tomato;
-  color: white;
-  border-radius: 4px;
-}
-
-#right {
-  width: 30vw;
 }
