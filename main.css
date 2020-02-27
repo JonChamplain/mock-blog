@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo:700|Geostar|Montserrat:300,400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Arvo:700|Geostar|Montserrat:300,400,700&display=swap");
 
 aside {
   width: 100%;
@@ -7,18 +7,18 @@ aside {
 body {
   margin: 5px 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgb(123, 123, 123);
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 hr {
-    margin: 3px;
-    border: .5px solid rgb(220, 220, 220);
+  margin: 3px;
+  border: 0.5px solid rgb(220, 220, 220);
 }
 
 h2 {
-  font-family: 'Arvo' , serif;
+  font-family: "Arvo", serif;
   color: tomato;
   letter-spacing: 5px;
   text-shadow: 2px 3px rgb(228, 228, 228);
@@ -49,25 +49,27 @@ section #sidebar {
 }
 
 .article-image-header {
-  font-size: 20px;
-  margin-bottom: 35px;
+  font-size: 18px;
+  margin-bottom: 25px;
   text-align: left;
 }
 
 .article-preview {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px auto;
 }
 
 .article-preview-text {
   text-align: left;
-  margin: auto auto 40px auto;
+  margin: auto auto 30px auto;
   font-weight: lighter;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .article-sub-head {
+  font-size: 14px;
   text-align: left;
 }
 
@@ -79,24 +81,22 @@ section #sidebar {
   align-items: flex-start;
 }
 .addresses {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .addressStack1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 50%;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
 }
 
 .addressStack2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 50%;
-   
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
 }
 
 .big-brackets {
@@ -106,7 +106,7 @@ section #sidebar {
 }
 
 .box-column {
-  width: 60%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -149,15 +149,23 @@ section #sidebar {
 }
 
 .continue-reading-button {
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 10px;
-    text-align: center;
-    background-color: tomato;
-    color: white;
-    border-radius: 4px;
-    width: auto;
+  transition: 0.25s;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  border-radius: 4px;
+  width: auto;
+}
+
+.continue-reading-button:hover {
+  transition: 0.25s;
+  color: rgb(228, 228, 228);
+  background-color: rgb(159, 66, 51);
 }
 
 .emailQC {
@@ -178,18 +186,25 @@ section #sidebar {
 }
 
 .learn-more-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 40px;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 12px;
-    text-align: center;
-    background-color: tomato;
-    color: white;
-    border-radius: 4px;
+  transition: 0.25s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  border-radius: 4px;
+}
+
+.learn-more-button:hover {
+  transition: 0.25s;
+  color: rgb(228, 228, 228);
+  background-color: rgb(159, 66, 51);
 }
 
 .landing-image {
@@ -203,6 +218,24 @@ section #sidebar {
   padding: 1rem 3rem 0rem 0rem;
 }
 
+.post {
+  align-items: center;
+  margin: 30px auto;
+}
+
+.post-image-header {
+  font-size: 18px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.post-text {
+  text-align: left;
+  margin: auto auto 30px auto;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
 .QC {
   font-size: 2em;
   padding: 1rem;
@@ -213,11 +246,12 @@ section #sidebar {
 }
 
 .stackItem {
-    padding: 0.4rem;
-   text-align: left;
+  padding: 0.4rem;
+  text-align: left;
 }
 
 .tell-me-more-button {
+  transition: 0.25s;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
@@ -226,6 +260,16 @@ section #sidebar {
   background-color: tomato;
   color: white;
   border-radius: 4px;
+}
+
+.tell-me-more-button:hover {
+  transition: 0.25s;
+  color: rgb(228, 228, 228);
+  background-color: rgb(159, 66, 51);
+}
+
+#blog-post-main {
+  padding: 2vw 0vw;
 }
 
 #footer {
@@ -237,6 +281,7 @@ section #sidebar {
 }
 
 #header {
+  width: 100%;
   text-align: center;
 }
 
@@ -312,12 +357,11 @@ section #sidebar {
 }
 
 #sidebar {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 #subtitle {
   font-size: 8px;
   font-weight: bold;
   margin-bottom: 70px;
-  font-family: sans-serif;
 }
