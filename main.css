@@ -11,8 +11,6 @@ h2 {
     text-shadow: 1px 1px gray;
 }
 
-
-
 section #sidebar {
     display: flex;
     flex-direction: column;
@@ -23,6 +21,18 @@ aside {
     width: 100%;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
 .box {
     display: flex;
     flex-direction: row;
@@ -32,11 +42,7 @@ aside {
 }
 
 
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+
 
 .featuredIMG {
     width: 50vw;
@@ -105,10 +111,16 @@ width: 10rem;
     height: 40vh;
     }
 
-    #main {
+    #mainLeft {
         width: 50vw;
         padding: 5vw 5vw 5vw 0vw;
     }
+
+    #mainRight {
+        width: 50vw;
+        padding: 0vw 5vw 5vw 5vw;
+    }
+
     #right {
         width: 30vw;
     }
