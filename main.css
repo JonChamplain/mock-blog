@@ -42,6 +42,10 @@ section #sidebar {
   flex-direction: column;
 }
 
+p{
+    text-align: left;
+}
+
 .article-image {
   width: 100%;
   border: solid 3px rgb(235, 235, 235);
@@ -167,6 +171,23 @@ section #sidebar {
   background-color: rgb(159, 66, 51);
 }
 
+.date {
+    transition: 0.25s;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    background-color:rgb(123, 123, 123);
+    color: white;
+    border-radius: 4px;
+    width: auto; 
+}
+
+.dateBox {
+    padding-top: 3rem;
+}
+
 .emailQC {
   padding: 1rem 3rem 0rem 0rem;
 }
@@ -192,8 +213,8 @@ section #sidebar {
   width: 150px;
   height: 40px;
   text-decoration: none;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: bold;
+  font-size: 10px;
   text-align: center;
   background-color: tomato;
   color: white;
@@ -251,6 +272,10 @@ section #sidebar {
 .stackItem {
   padding: 0.4rem;
   text-align: left;
+}
+
+.subHead {
+    text-align: center;
 }
 
 .tell-me-more-button {
@@ -361,6 +386,7 @@ section #sidebar {
 
 #sidebar {
   margin-top: 80px;
+  text-align: left;
 }
 
 #subtitle {
