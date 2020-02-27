@@ -68,6 +68,26 @@ section #sidebar {
   text-align: center;
   align-items: flex-start;
 }
+.addresses {
+    display: flex;
+    flex-direction: row;
+}
+
+.addressStack1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    
+}
+
+.addressStack2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+   
+}
 
 .big-brackets {
   font-family: "Geostar";
@@ -95,7 +115,9 @@ section #sidebar {
 }
 
 .commentQC {
-  padding: 1rem 3rem;
+  padding: 1rem 4rem 1rem 2rem;
+  margin: 0rem;
+  resize: none;
 }
 
 .container {
@@ -107,7 +129,7 @@ section #sidebar {
 }
 
 .contentQC {
-  width: 10rem;
+  width: 20rem;
 }
 
 .containerQC {
@@ -178,6 +200,11 @@ section #sidebar {
 
 .relatedIMG {
   width: 20vw;
+}
+
+.stackItem {
+    padding: 0.4rem;
+   text-align: left;
 }
 
 .tell-me-more-button {
