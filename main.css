@@ -1,32 +1,40 @@
-@import url("https://fonts.googleapis.com/css?family=Geostar&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Arvo:700|Geostar|Montserrat:300,400,700&display=swap');
 
 aside {
   width: 100%;
 }
 
 body {
-  margin: auto 0;
+  margin: 5px 0;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(123, 123, 123);
+  letter-spacing: .1rem;
+}
+
+hr {
+    margin: 3px;
+    border: .5px solid rgb(220, 220, 220);
 }
 
 h2 {
-  font-family: serif;
+  font-family: 'Arvo' , serif;
   color: tomato;
-  text-shadow: 1px 1px gray;
-  font-size: 2.5rem;
+  letter-spacing: 5px;
+  text-shadow: 2px 3px rgb(228, 228, 228);
+  font-size: 2.2rem;
   margin-bottom: 15px;
 }
 
 h3 {
-  margin-top: 50px;
-  font-size: 16px;
-  font-family: sans-serif;
+  margin-top: 60px;
+  font-size: 14px;
   font-weight: 400;
 }
 
 label {
   font-size: 10px;
+  font-weight: bold;
 }
 
 section #sidebar {
@@ -55,6 +63,8 @@ section #sidebar {
 .article-preview-text {
   text-align: left;
   margin: auto auto 40px auto;
+  font-weight: lighter;
+  font-size: .8rem;
 }
 
 .article-sub-head {
@@ -119,8 +129,8 @@ section #sidebar {
 .continue-reading-button {
     padding: 10px 20px;
     text-decoration: none;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: bold;
+    font-size: 10px;
     text-align: center;
     background-color: tomato;
     color: white;
@@ -168,8 +178,8 @@ section #sidebar {
 .tell-me-more-button {
   padding: 10px 20px;
   text-decoration: none;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: bold;
+  font-size: 10px;
   text-align: center;
   background-color: tomato;
   color: white;
@@ -215,7 +225,7 @@ section #sidebar {
 #main {
   width: 70%;
   padding: 5vw 0vw;
-  margin-right: 3%;
+  margin-right: 5%;
 }
 
 #mainLeft {
@@ -232,6 +242,7 @@ section #sidebar {
   margin: auto 200px;
   color: white;
   font-size: 20px;
+  font-weight: bold;
 }
 
 #quote-block {
@@ -264,6 +275,7 @@ section #sidebar {
 
 #subtitle {
   font-size: 8px;
-  margin-bottom: 60px;
+  font-weight: bold;
+  margin-bottom: 70px;
   font-family: sans-serif;
 }
