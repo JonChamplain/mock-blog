@@ -185,11 +185,17 @@ p{
     text-decoration: none;
     font-weight: bold;
     font-size: 10px;
-    text-align: center;
+    
     background-color:rgb(123, 123, 123);
     color: white;
     border-radius: 4px;
-    width: auto; 
+    width: auto;
+}
+
+.date:hover{
+    transition: 0.25s;
+    color: rgb(228, 228, 228);
+    background-color: rgb(159, 66, 51);
 }
 
 .dateBox {
@@ -275,7 +281,9 @@ p{
 }
 
 .SBheader {
-    margin: 10px 0 0 10px
+    margin: 10px 0 0 10px;
+    padding-top: 10px;
+    text-align: left;
 }
 
 .stackItem {
@@ -402,6 +410,7 @@ p{
 #sidebar {
   margin-top: 80px;
   text-align: left;
+  justify-content: left;
 }
 
 #subtitle {
