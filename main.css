@@ -8,8 +8,8 @@ body {
   margin: 5px 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  color: rgb(123, 123, 123);
-  letter-spacing: 0.1rem;
+  color: rgb(109, 109, 109);
+  letter-spacing: 0.15rem;
 }
 
 hr {
@@ -30,6 +30,10 @@ h3 {
   margin-top: 40px;
   font-size: 16px;
   font-weight: 400;
+}
+
+i {
+    margin: 5px
 }
 
 label {
@@ -67,8 +71,8 @@ p{
 .article-preview-text {
   text-align: left;
   margin: auto auto 30px auto;
-  font-weight: lighter;
-  font-size: 0.8rem;
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 .article-sub-head {
@@ -281,6 +285,7 @@ p{
 .tell-me-more-button {
   transition: 0.25s;
   padding: 10px 20px;
+  margin-top: 75px;
   text-decoration: none;
   font-weight: bold;
   font-size: 10px;
@@ -393,4 +398,5 @@ p{
   font-size: 8px;
   font-weight: bold;
   margin-bottom: 70px;
+  text-align: center;
 }
