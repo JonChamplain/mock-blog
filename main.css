@@ -80,13 +80,6 @@ p{
   text-align: left;
 }
 
-.box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  align-items: flex-start;
-}
 .addresses {
   display: flex;
   flex-direction: row;
@@ -111,6 +104,14 @@ p{
   font-size: 80px;
   color: rgb(148, 148, 148);
 }
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+  }
 
 .box-column {
   width: 55%;
