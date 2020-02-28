@@ -51,7 +51,7 @@ p{
 }
 
 .article-image {
-  width: 100%;
+  width: 98%;
   border: solid 3px rgb(235, 235, 235);
 }
 
@@ -126,7 +126,6 @@ p{
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
-  
 }
 
 .column2 {
@@ -136,9 +135,10 @@ p{
 }
 
 .commentQC {
-  padding:10px 5px 10px 0rem;
+  padding:10px 0px 10px 0rem;
   margin: 0rem;
   resize: none;
+  
 }
 
 .container {
@@ -203,7 +203,9 @@ p{
 }
 
 .emailQC {
-  padding: 1rem 3rem 0rem 0rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .featuredIMG {
@@ -217,6 +219,14 @@ p{
 .image-with-caption {
   display: flex;
   flex-direction: column;
+}
+
+.input-email {
+    width: 45%;
+}
+
+.input-name {
+    width: 45%;
 }
 
 .learn-more-button {
@@ -248,11 +258,10 @@ p{
   border-radius: 2px;
 }
 
-.nameQC {
+/* .nameQC {
   padding: 1rem 0rem 0rem 0rem;
   
-}
-
+} */
 .post {
   align-items: center;
   margin: 30px auto;
@@ -319,7 +328,8 @@ p{
 }
 
 #comment-area {
-    width: 100%;
+    width: 400px;
+    height: 125px;
     
 }
 
