@@ -51,7 +51,7 @@ p{
 }
 
 .article-image {
-  width: 100%;
+  width: 98%;
   border: solid 3px rgb(235, 235, 235);
 }
 
@@ -241,7 +241,6 @@ p{
 .nameQC {
   padding: 1rem 3rem 0rem 0rem;
 }
-
 .post {
   align-items: center;
   margin: 30px auto;
