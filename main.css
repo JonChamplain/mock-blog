@@ -123,16 +123,20 @@ p{
 .column1 {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  
 }
 
 .column2 {
   display: flex;
   flex-direction: column;
+  margin-left: 25px;
 }
 
 .commentQC {
-  padding: 1rem 4rem 1rem 2rem;
+  padding:10px 5px 10px 0rem;
   margin: 0rem;
   resize: none;
 }
@@ -239,7 +243,8 @@ p{
 }
 
 .nameQC {
-  padding: 1rem 3rem 0rem 0rem;
+  padding: 1rem 0rem 0rem 0rem;
+  
 }
 .post {
   align-items: center;
@@ -302,6 +307,11 @@ p{
 
 #blog-post-main {
   padding: 2vw 0vw;
+}
+
+#comment-area {
+    width: 100%;
+    
 }
 
 #footer {
