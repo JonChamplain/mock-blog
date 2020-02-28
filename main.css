@@ -112,6 +112,7 @@ p {
   justify-content: center;
   text-align: center;
   align-items: flex-start;
+  margin-bottom: 40px;
 }
 
 .box-column {
