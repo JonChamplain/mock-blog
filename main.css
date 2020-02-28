@@ -211,6 +211,7 @@ p{
 
 .featuredIMG {
   width: 100%;
+  box-shadow: 5px 15px 3px -5px #888888;
 }
 
 .headerQC {
@@ -392,7 +393,7 @@ p{
 
 #mainRight {
   width: 70%;
-  padding: 0vw 5vw 5vw 5vw;
+  padding: 0vw 0vw 5vw 5vw;
 }
 
 #quote {
