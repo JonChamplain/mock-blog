@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 16px;
   font-weight: 400;
 }
@@ -161,17 +161,19 @@ p{
 }
 
 .continue-reading-button {
-  transition: 0.25s;
-  margin-bottom: 25px;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 10px;
-  text-align: center;
-  background-color: tomato;
-  color: white;
-  border-radius: 4px;
-  width: auto;
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    border-radius: 4px;
 }
 
 .continue-reading-button:hover {
@@ -210,7 +212,9 @@ p{
 }
 
 .featuredIMG {
-  width: 50vw;
+  width: 98%;
+  margin: 40px 0;
+  border: solid 3px rgb(235, 235, 235);
 }
 
 .headerQC {
@@ -287,7 +291,8 @@ p{
 }
 
 .relatedIMG {
-  width: 100%;
+  width: 95%;
+  border: solid 3px rgb(235, 235, 235);
 }
 
 .SBheader {
@@ -299,6 +304,10 @@ p{
 .stackItem {
   padding: 0.4rem;
   text-align: left;
+}
+
+.separator{
+margin-bottom: 40px;
 }
 
 .subHead {
@@ -336,7 +345,7 @@ p{
 
 #footer {
   font-size: 12px;
-  background-color: rgb(189, 185, 185);
+  background-color: rgb(232, 229, 226);
   width: 100%;
   height: 40%;
   padding-bottom: 3%;
@@ -368,13 +377,14 @@ p{
 }
 
 #left {
-  width: 30vw;
+  width: 30%;
+  margin-right: 5%;
 }
 
 #main {
   width: 70%;
-  padding: 5vw 0vw;
-  margin-right: 5%;
+  padding: 0 0;
+  /* margin-right: 5%; */
 }
 
 #mainLeft {
@@ -416,6 +426,7 @@ p{
 
 #right {
   width: 30%;
+  margin-left: 5%;
 }
 
 #sidebar {
