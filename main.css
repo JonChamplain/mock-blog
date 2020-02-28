@@ -448,12 +448,13 @@ p {
 }
 
 #right {
+    margin-top: 0;
   width: 30%;
   margin-left: 5%;
 }
 
 #sidebar {
-  margin: 80px auto 40px auto;
+  margin: auto auto 40px auto;
   text-align: left;
 }
 
