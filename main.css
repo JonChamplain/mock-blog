@@ -228,10 +228,12 @@ p {
 
 .input-email {
   width: 45%;
+  /* border-radius: 3px; */
 }
 
 .input-name {
   width: 45%;
+  /* border-radius: 3px; */
 }
 
 .learn-more-button {
@@ -341,6 +343,7 @@ p {
 #comment-area {
   width: 400px;
   height: 125px;
+  border-radius: 3px;
 }
 
 #footer {
