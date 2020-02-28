@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo:700|Geostar|Montserrat:300,400,700&display=swap");
 
+
 aside {
   width: 100%;
 }
@@ -170,7 +171,7 @@ p{
   background-color: tomato;
   color: white;
   border-radius: 4px;
-  width: 75%;
+  width: 4rem;
 }
 
 .continue-reading-button:hover {
@@ -185,7 +186,6 @@ p{
     text-decoration: none;
     font-weight: bold;
     font-size: 10px;
-    
     background-color:rgb(123, 123, 123);
     color: white;
     border-radius: 4px;
@@ -200,6 +200,7 @@ p{
 
 .dateBox {
     padding-top: 3rem;
+    text-align: left;
 }
 
 .emailQC {
