@@ -1,4 +1,6 @@
+/* Font import */
 @import url("https://fonts.googleapis.com/css?family=Arvo:700|Geostar|Montserrat:300,400,700|Encode+Sans+Condensed:300,400&display=swap");
+/* element styling in alphabetical order */
 
 a {
   text-decoration: none;
@@ -60,6 +62,9 @@ p {
   line-height: 175%;
   color: rgb(147, 147, 147);
 }
+
+/* class styling in alphabetical order */
+/* items ending in QC refer to sections of the footer */
 
 .addresses {
   display: flex;
@@ -186,6 +191,7 @@ p {
   color: white;
   border-radius: 4px;
   box-shadow: rgb(230, 230, 230) 2px 2px;
+  margin-bottom: 1rem;
 }
 
 .continue-reading-button:hover {
@@ -291,6 +297,7 @@ p {
   color: white;
   border-radius: 4px;
   box-shadow: rgb(230, 230, 230) 2px 2px;
+  margin-bottom: 1rem;
 }
 
 .learn-more-button:hover {
@@ -306,10 +313,6 @@ p {
   border-radius: 2px;
 }
 
-/* .nameQC {
-  padding: 1rem 0rem 0rem 0rem;
-  
-} */
 .post {
   align-items: center;
   margin: 30px auto;
@@ -326,7 +329,6 @@ p {
   margin: auto auto 30px auto;
   font-weight: lighter;
   letter-spacing: 0rem;
-  /* font-family: 'Encode Sans Condensed'; */
 }
 
 .QC {
@@ -360,7 +362,6 @@ p {
   font-size: 0.8rem;
   font-weight: lighter;
   letter-spacing: 0rem;
-  /* font-family: 'Encode Sans Condensed'; */
 }
 
 .stackItem {
@@ -396,10 +397,7 @@ p {
   background-color: rgb(159, 66, 51);
 }
 
-/* 
-#blog-post-main {
-  padding: 2vw 0vw;
-} */
+/* id styling in alphabetical order */
 
 #comment-area {
   font-family: "Montserrat", sans-serif;
@@ -461,7 +459,6 @@ p {
   width: 70%;
   padding: 0 0;
   margin-bottom: 40px;
-  /* margin-right: 5%; */
 }
 
 #mainLeft {
