@@ -3,8 +3,8 @@
 /* element styling in alphabetical order */
 
 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
 
 aside {
@@ -12,31 +12,31 @@ aside {
 }
 
 body {
+  color: rgb(101, 101, 101);
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.15rem;
   margin: 5px 0;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(101, 101, 101);
-  letter-spacing: 0.15rem;
 }
 
 hr {
-  margin: 3px;
   border: 0.5px solid rgb(220, 220, 220);
+  margin: 3px;
 }
 
 h2 {
-  font-family: "Arvo", serif;
   color: tomato;
-  letter-spacing: 5px;
-  text-shadow: 2px 3px rgb(228, 228, 228);
+  font-family: "Arvo", serif;
   font-size: 2.2rem;
+  letter-spacing: 5px;
   margin-bottom: 15px;
+  text-shadow: 2px 3px rgb(228, 228, 228);
 }
 
 h3 {
-  margin-top: 20px;
   font-size: 16px;
   font-weight: 400;
+  margin-top: 20px;
 }
 
 i {
@@ -54,13 +54,13 @@ section #sidebar {
 }
 
 p {
-  text-align: left;
-  font-weight: lighter;
-  font-size: 0.9rem;
-  letter-spacing: 0rem;
-  word-spacing: 0.3rem;
-  line-height: 175%;
   color: rgb(147, 147, 147);
+  font-size: 0.9rem;
+  font-weight: lighter;
+  letter-spacing: 0rem;
+  line-height: 175%;
+  text-align: left;
+  word-spacing: 0.3rem;
 }
 
 /* class styling in alphabetical order */
@@ -86,28 +86,28 @@ p {
 }
 
 .article-image {
-  width: 98%;
   border: solid 3px rgb(235, 235, 235);
   margin: 20px 0;
+  width: 98%;
 }
 
 .article-image-header {
   font-size: 18px;
-  margin-bottom: 25px;
   font-weight: normal;
+  margin-bottom: 25px;
   text-align: left;
 }
 
 .article-preview {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   margin: 0 0 30px 0;
 }
 
 .article-preview-text {
-  text-align: left;
   margin: auto auto 30px auto;
+  text-align: left;
   /* font-family: 'Encode Sans Condensed',; */
 }
 
@@ -117,32 +117,32 @@ p {
 }
 
 .big-brackets {
+  color: rgb(148, 148, 148);
   font-family: "Geostar";
   font-size: 80px;
-  color: rgb(148, 148, 148);
 }
 
 .box {
+  align-items: flex-start;
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  align-items: flex-start;
 }
 
 .box-column {
-  width: 65%;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  width: 65%;
 }
 
 .column1 {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
   text-align: left;
 }
 
@@ -153,8 +153,8 @@ p {
 }
 
 .commentQC {
-  padding: 10px 0px 10px 0rem;
   margin: 0rem;
+  padding: 10px 0px 10px 0rem;
   resize: none;
 }
 
@@ -177,46 +177,46 @@ p {
 }
 
 .continue-reading-button {
-  transition: 0.25s;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 0 10px;
-  height: 40px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 10px;
-  text-align: center;
   background-color: tomato;
-  color: white;
   border-radius: 4px;
   box-shadow: rgb(230, 230, 230) 2px 2px;
+  color: white;
+  display: flex;
+  font-size: 10px;
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
   margin-bottom: 1rem;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
 }
 
 .continue-reading-button:hover {
-  transition: 0.25s;
-  color: rgb(228, 228, 228);
   background-color: rgb(159, 66, 51);
+  color: rgb(228, 228, 228);
+  transition: 0.25s;
 }
 
 .date {
-  transition: 0.25s;
-  padding: 10px 20px;
-  margin-bottom: 45px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 10px;
   background-color: rgb(154, 154, 154);
-  color: white;
   border-radius: 4px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 45px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 0.25s;
   width: auto;
 }
 
 .date:hover {
-  transition: 0.25s;
-  color: rgb(228, 228, 228);
   background-color: rgb(159, 66, 51);
+  color: rgb(228, 228, 228);
+  transition: 0.25s;
 }
 
 .dateBox {
@@ -230,9 +230,9 @@ p {
 }
 
 .featuredIMG {
-  width: 98%;
-  margin: 40px 0;
   border: solid 3px rgb(235, 235, 235);
+  margin: 40px 0;
+  width: 98%;
 }
 
 .headerQC {
@@ -240,8 +240,8 @@ p {
 }
 
 .home-anchor {
-  text-decoration: none;
   color: tomato;
+  text-decoration: none;
 }
 
 .image-with-caption {
@@ -250,67 +250,67 @@ p {
 }
 
 .input-email {
+  background-color: rgb(244, 244, 244);
+  border: none;
+  border-radius: 2px;
+  box-shadow: -1px -1px #d8d8d8;
   font-family: "Montserrat", sans-serif;
   height: 2rem;
-  width: 45%;
-  border-radius: 2px;
-  border: none;
-  box-shadow: -1px -1px #d8d8d8;
-  padding-left: 3%;
-  background-color: rgb(244, 244, 244);
   outline-color: lightgray;
+  padding-left: 3%;
+  width: 45%;
 }
 
 .input-email:focus {
-  transition: 0.25s;
   background-color: white;
+  transition: 0.25s;
 }
 
 .input-name {
-  font-family: "Montserrat", sans-serif;
-  width: 45%;
-  border-radius: 2px;
-  border: none;
-  box-shadow: -1px -1px #d8d8d8;
-  padding-left: 3%;
   background-color: rgb(244, 244, 244);
+  border: none;
+  border-radius: 2px;
+  box-shadow: -1px -1px #d8d8d8;
+  font-family: "Montserrat", sans-serif;
   outline-color: lightgray;
+  padding-left: 3%;
+  width: 45%;
 }
 
 .input-name:focus {
-  transition: 0.25s;
   background-color: white;
+  transition: 0.25s;
 }
 
 .learn-more-button {
-  transition: 0.25s;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 40px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 10px;
-  text-align: center;
   background-color: tomato;
-  color: white;
   border-radius: 4px;
   box-shadow: rgb(230, 230, 230) 2px 2px;
+  color: white;
+  display: flex;
+  font-size: 10px;
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
   margin-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+  width: 150px;
 }
 
 .learn-more-button:hover {
-  transition: 0.25s;
-  color: rgb(228, 228, 228);
   background-color: rgb(159, 66, 51);
+  color: rgb(228, 228, 228);
+  transition: 0.25s;
 }
 
 .landing-image {
-  width: 97%;
-  margin: 40px 0;
   border: solid 3px rgb(235, 235, 235);
   border-radius: 2px;
+  margin: 40px 0;
+  width: 97%;
 }
 
 .post {
@@ -325,10 +325,10 @@ p {
 }
 
 .post-text {
-  text-align: left;
-  margin: auto auto 30px auto;
   font-weight: lighter;
   letter-spacing: 0rem;
+  margin: auto auto 30px auto;
+  text-align: left;
 }
 
 .QC {
@@ -337,31 +337,31 @@ p {
 }
 
 .relatedIMG {
-  width: 95%;
   border: solid 3px rgb(235, 235, 235);
   margin-bottom: 10px;
+  width: 95%;
 }
 
 .SBheader {
+  color: rgb(142, 142, 142);
   margin: 30px 0;
   padding-top: 10px;
   text-align: left;
-  color: rgb(142, 142, 142);
 }
 
 .SBheader:hover {
   color: tomato;
-  transition: 0.25s;
   cursor: pointer;
+  transition: 0.25s;
 }
 
 .SBparagraph {
-  text-align: left;
-  margin: auto auto 30px auto;
-  font-weight: normal;
   font-size: 0.8rem;
+  font-weight: normal;
   font-weight: lighter;
   letter-spacing: 0rem;
+  margin: auto auto 30px auto;
+  text-align: left;
 }
 
 .stackItem {
@@ -378,56 +378,56 @@ p {
 }
 
 .tell-me-more-button {
-  transition: 0.25s;
-  padding: 10px 20px;
-  margin-top: 40px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 10px;
-  text-align: center;
   background-color: tomato;
-  color: white;
   border-radius: 4px;
   box-shadow: rgb(230, 230, 230) 2px 2px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 40px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
 }
 
 .tell-me-more-button:hover {
-  transition: 0.25s;
-  color: rgb(228, 228, 228);
   background-color: rgb(159, 66, 51);
+  color: rgb(228, 228, 228);
+  transition: 0.25s;
 }
 
 /* id styling in alphabetical order */
 
 #comment-area {
+  background-color: rgb(244, 244, 244);
+  border: none;
+  border-radius: 2px;
+  box-shadow: -1px -1px #d8d8d8;
   font-family: "Montserrat", sans-serif;
+  height: 100px;
   padding-top: 3%;
   width: 400px;
-  height: 100px;
-  border-radius: 2px;
-  border: none;
-  box-shadow: -1px -1px #d8d8d8;
-  background-color: rgb(244, 244, 244);
 }
 
 #comment-area:focus {
-  transition: 0.25s;
   background-color: white;
   outline-color: lightgray;
+  transition: 0.25s;
 }
 
 #footer {
-  font-size: 12px;
   background-color: rgb(235, 235, 235);
-  padding-top: 50px;
-  width: 100%;
+  font-size: 12px;
   height: 40%;
   padding-bottom: 3%;
+  padding-top: 50px;
+  width: 100%;
 }
 
 #header {
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 #features {
@@ -435,54 +435,55 @@ p {
 }
 
 #hp-featured {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  align-items: center;
 }
 
 #landing-images {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
   height: 300px;
 }
 
 #left {
-  width: 30%;
   margin-right: 5%;
+  width: 30%;
 }
 
 #main {
-  width: 70%;
-  padding: 0 0;
   margin-bottom: 40px;
+  padding: 0 0;
+  width: 70%;
 }
 
 #mainLeft {
-  width: 70%;
   padding: 0vw 5vw 5vw 0vw;
+  width: 70%;
 }
 
 #mainRight {
-  width: 70%;
   padding: 0vw 0vw 5vw 5vw;
+  width: 70%;
 }
 
 #quote {
-  margin: auto 10vw;
   color: white;
   font-size: 20px;
+  margin: auto 10vw;
 }
 
 #quote-block {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 #quote-section {
+  align-items: center;
   background: linear-gradient(
     90deg,
     rgba(78, 83, 89, 1) 0%,
@@ -490,18 +491,17 @@ p {
     rgba(115, 120, 122, 1) 63%,
     rgba(78, 83, 89, 1) 100%
   );
-  height: 225px;
-  width: 100%;
   display: flex;
+  height: 225px;
   justify-content: center;
-  align-items: center;
   margin-bottom: 75px;
+  width: 100%;
 }
 
 #right {
+  margin-left: 5%;
   margin-top: 0;
   width: 30%;
-  margin-left: 5%;
 }
 
 #sidebar {
@@ -513,7 +513,7 @@ p {
   font-size: 8px;
   font-weight: bold;
   letter-spacing: 0.15rem;
-  word-spacing: normal;
   margin-bottom: 70px;
   text-align: center;
+  word-spacing: normal;
 }
