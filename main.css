@@ -69,20 +69,21 @@ p {
 .addresses {
   display: flex;
   flex-direction: row;
+  font-size: 0.6rem;
 }
 
 .addressStack1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 50%;
+  width: 20vw;
 }
 
 .addressStack2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 50%;
+  width: 20vw;
 }
 
 .article-image {
@@ -139,23 +140,22 @@ p {
 }
 
 .column1 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   text-align: left;
+  width: 35%;
 }
 
 .column2 {
   display: flex;
   flex-direction: column;
   margin-left: 25px;
+  width: 25%;
 }
 
 .commentQC {
   margin: 0rem;
-  padding: 10px 0px 10px 0rem;
+  padding: 10px 0px 0px 0rem;
   resize: none;
+  display: flex;
 }
 
 .container {
@@ -167,13 +167,14 @@ p {
 }
 
 .contentQC {
-  width: 20rem;
+  width: 100%;
 }
 
 .containerQC {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100vw;
 }
 
 .continue-reading-button {
@@ -405,9 +406,10 @@ p {
   border-radius: 2px;
   box-shadow: -1px -1px #d8d8d8;
   font-family: "Montserrat", sans-serif;
-  height: 100px;
-  padding-top: 3%;
-  width: 400px;
+  height: 15vh;
+  margin-bottom: 20px;
+  padding: 3% 0 0 3%;
+  width: 100%;
 }
 
 #comment-area:focus {
@@ -418,11 +420,11 @@ p {
 
 #footer {
   background-color: rgb(235, 235, 235);
-  font-size: 12px;
+  font-size: 0.8rem;
   height: 40%;
-  padding-bottom: 3%;
-  padding-top: 50px;
-  width: 100%;
+  padding-bottom: 6%;
+  padding-top: 5vw;
+  width: 100vw;
 }
 
 #header {
@@ -444,10 +446,10 @@ p {
 
 #landing-images {
   display: grid;
-  grid-column-gap: 30px;
+  grid-column-gap: 3%;
   grid-row-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 300px;
+  height: 30vw + 20px;
 }
 
 #left {
