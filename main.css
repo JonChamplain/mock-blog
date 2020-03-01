@@ -1,5 +1,6 @@
+/* Font import */
 @import url("https://fonts.googleapis.com/css?family=Arvo:700|Geostar|Montserrat:300,400,700|Encode+Sans+Condensed:300,400&display=swap");
-
+/* element styling in alphabetical order */
 aside {
   width: 100%;
 }
@@ -50,6 +51,8 @@ p {
   text-align: left;
 }
 
+/* class styling in alphabetical order */
+/* items ending in QC refer to sections of the footer */
 .article-image {
   width: 98%;
   border: solid 3px rgb(235, 235, 235);
@@ -73,8 +76,7 @@ p {
   margin: auto auto 30px auto;
   font-weight: lighter;
   font-size: 1.1rem;
-  /* font-family: 'Encode Sans Condensed',; */
-}
+ }
 
 .article-sub-head {
   font-size: 14px;
@@ -300,7 +302,6 @@ p {
   margin: auto auto 30px auto;
   font-weight: lighter;
   font-size: 1rem;
-  /* font-family: 'Encode Sans Condensed'; */
 }
 
 .QC {
@@ -325,7 +326,6 @@ p {
   margin: auto auto 30px auto;
   font-weight: normal;
   font-size: 0.7rem;
-  /* font-family: 'Encode Sans Condensed'; */
 }
 
 .stackItem {
@@ -361,10 +361,7 @@ p {
   background-color: rgb(159, 66, 51);
 }
 
-/* 
-#blog-post-main {
-  padding: 2vw 0vw;
-} */
+/* id styling in alphabetical order */
 
 #comment-area {
   font-family: "Montserrat", sans-serif;
@@ -419,7 +416,6 @@ p {
   width: 70%;
   padding: 0 0;
   margin-bottom: 40px;
-  /* margin-right: 5%; */
 }
 
 #mainLeft {
