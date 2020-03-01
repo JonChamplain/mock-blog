@@ -187,6 +187,7 @@ p {
   color: white;
   border-radius: 4px;
   box-shadow: rgb(230, 230, 230) 2px 2px;
+  margin-bottom: 1rem;
 }
 
 .continue-reading-button:hover {
@@ -290,6 +291,7 @@ p {
   color: white;
   border-radius: 4px;
   box-shadow: rgb(230, 230, 230) 2px 2px;
+  margin-bottom: 1rem;
 }
 
 .learn-more-button:hover {
@@ -305,10 +307,6 @@ p {
   border-radius: 2px;
 }
 
-/* .nameQC {
-  padding: 1rem 0rem 0rem 0rem;
-  
-} */
 .post {
   align-items: center;
   margin: 30px auto;
