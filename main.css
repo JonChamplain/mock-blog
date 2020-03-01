@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo:700|Geostar|Montserrat:300,400,700|Encode+Sans+Condensed:300,400&display=swap");
 
-
 aside {
   width: 100%;
 }
@@ -121,7 +120,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  
 }
 
 .column1 {
@@ -186,15 +184,15 @@ p {
 }
 
 .date {
-    transition: 0.25s;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 10px;
-    background-color:rgb(123, 123, 123);
-    color: white;
-    border-radius: 4px;
-    width: auto;
+  transition: 0.25s;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: rgb(123, 123, 123);
+  color: white;
+  border-radius: 4px;
+  width: auto;
 }
 
 .date:hover {
@@ -204,8 +202,8 @@ p {
 }
 
 .dateBox {
-    margin-top: 20px;
-    text-align: left;
+  margin-top: 20px;
+  text-align: left;
 }
 
 .emailQC {
@@ -234,18 +232,22 @@ p {
 }
 
 .input-email {
-    height: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  height: 2rem;
   width: 45%;
   border-radius: 2px;
   border: none;
   box-shadow: -1px -1px #d8d8d8;
+  padding-left: 3%;
 }
 
 .input-name {
+  font-family: "Montserrat", sans-serif;
   width: 45%;
   border-radius: 2px;
   border: none;
   box-shadow: -1px -1px #d8d8d8;
+  padding-left: 3%;
 }
 
 .learn-more-button {
@@ -319,12 +321,12 @@ p {
 }
 
 .SBparagraph {
-    text-align: left;
-    margin: auto auto 30px auto;
-    font-weight: normal;
-    font-size: .7rem;
-    /* font-family: 'Encode Sans Condensed'; */
-  }
+  text-align: left;
+  margin: auto auto 30px auto;
+  font-weight: normal;
+  font-size: 0.7rem;
+  /* font-family: 'Encode Sans Condensed'; */
+}
 
 .stackItem {
   padding: 0.4rem;
@@ -365,8 +367,10 @@ p {
 } */
 
 #comment-area {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 3%;
   width: 400px;
-  height: 125px;
+  height: 100px;
   border-radius: 2px;
   border: none;
   box-shadow: -1px -1px #d8d8d8;
@@ -421,7 +425,6 @@ p {
 #mainLeft {
   width: 70%;
   padding: 0vw 5vw 5vw 0vw;
-  
 }
 
 #mainRight {
@@ -454,11 +457,11 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 75px;;
+  margin-bottom: 75px;
 }
 
 #right {
-    margin-top: 0;
+  margin-top: 0;
   width: 30%;
   margin-left: 5%;
 }
@@ -467,8 +470,6 @@ p {
   margin: auto auto 40px auto;
   text-align: left;
 }
-
-
 
 #subtitle {
   font-size: 8px;
