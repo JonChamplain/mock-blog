@@ -236,6 +236,10 @@ p {
   width: 98%;
 }
 
+.footer-paragraph {
+  margin-top: 0;
+}
+
 .headerQC {
   text-align: center;
 }
